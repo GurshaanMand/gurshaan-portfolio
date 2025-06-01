@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    background-color: rgb(30, 30, 30);
+    color: rgba(255, 242, 223, 0.922);
+    color: rgba(44, 165, 221, 0.856);
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header h1{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 5rem;
+    padding: 2rem;
+    display: inline-block;
+    line-height: 1.1;
+}
+/* header h2{
+    border: solid 0.1rem lightblue;
+    width: 60%;
+    height: 0.1rem;
+    font-size: 1px;
+    margin-top: 5rem;
+} */
+
+#description h3{
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-top: 7rem;
+    padding: 2rem;
+    line-height: 1.6;
+    width: 70%;
+    display: inline-block;
+}
+
+#intro-imgage {
+    display: none;
+}
+
+#projects{
+    margin-top: 11rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+#projects h3{
+    text-align: center;
+    font-size: 2.5rem;
+    border: solid rgb(38, 38, 38, 0.36);
+    background-color: rgba(38, 38, 38, 0.36);
+}  
+
+.ProjectOne{
+    padding: 4rem;
+    padding-top: 4rem;
+    margin: 1rem;
+    border: solid 0.2rem rgba(148, 11, 11, 0.79);
+    display: inline-block;
+}
+.ProjectTwo{
+    padding: 4rem;
+    padding-top: 4rem;
+    margin: 1rem;
+    border: solid 0.2rem rgba(243, 177, 79, 0.721);
+    display: inline-flexbox;
+
+}
+.ProjectThree{
+    padding: 4rem;
+    padding-top: 4rem;
+    margin: 1rem;
+    border: solid 0.2rem rgba(0, 106, 193, 0.922);
+    display: inline-block;
+
+}
+
+#Experience{
+    margin-top: 12rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.6;
+
+}
+
+#Experience h3{
+    text-align: center;
+    font-size: 2.5rem;
+    border: solid rgb(38, 38, 38, 0.36);
+    background-color: rgba(38, 38, 38, 0.36);
+}
+
+
