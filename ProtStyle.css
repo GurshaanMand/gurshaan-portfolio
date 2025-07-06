@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    background-color: rgb(30, 30, 30);
+    color: rgba(255, 242, 223, 0.922);
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-inline-size: 100%;
+    display: block;
+}
+
+/* .construction{
+    border: solid 0.5rem rgba(255, 136, 0, 0.617);
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    background-color: rgba(255, 136, 0, 0.6);
+    font-size: 2rem;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+} */
+
+header h1 {
+    margin: 2rem 2rem 2rem 2rem;
+    border: hidden 0.5rem;
+    padding: 2rem;
+    font-size: 5rem;
+    display: inline-block;
+    line-height: 1.1;
+}
+
+header h1 {
+    font-size: 5rem;
+    background: linear-gradient(45deg, rgba(255, 242, 223, 0.922), rgba(2, 175, 181, 0.922));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+header h2 {
+    border: solid 0.1rem lightblue;
+    width: 60%;
+    height: 0.1rem;
+    font-size: 1px;
+    margin-top: 5rem;
+}
+
+.card {
+    display: inline-flex;               /* lay out children in a row */
+    align-items: center;                /* vertical-center each item */
+    gap: 0.5rem;                        /* uniform spacing between items */
+    padding: 0.5rem 1rem;               /* breathing room inside the card */
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+
+    /* position the whole card on the page */
+    position: absolute;
+    right: 10rem;
+    top: 32rem;
+}
+
+
+.selfImage {
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 6rem;
+    top: 2rem;
+    border-radius: 100%;
+    z-index: 3;
+    border: .2rem solid rgba(2, 175, 181, 0.688);
+    box-shadow: 0 4px 20px rgb(0, 0, 0);
+}
+
+.selfImage {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+.selfImage:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+}
+
+.resumePic {
+    width: 1.2rem;
+    height: 1.7rem;
+    z-index: 3;
+}
+
+.resume-link {
+    display: inline-flex;            /* lay icon & text in one row */
+    align-items: center;             /* vertical center */
+    gap: 0.5rem;                     /* space between icon & text */
+  
+    /* your border now goes on the wrapper */
+    border: 0.2rem solid rgba(2, 175, 181, 0.922);
+    padding: 0.3rem 1rem;          
+  
+    text-decoration: none;           /* no underline */
+    color: inherit;                  /* keep your font color */
+  
+    transition: transform 0.2s;
+  }
+  
+  .resume-link .resumePic {
+    width: 1.2rem;
+    height: auto;
+  }
+  
+  .resume-link .resume-text {
+    font-size: 1.7rem;
+    line-height: 1;  /* so the border hugs it tightly */
+  }
+
+.linkedin {
+    width: 2.5rem;
+    height: 2.5rem;
+    /* position: absolute;
+    right: 8.5rem;
+    top: 32.4rem; */
+    z-index: 4;
+}
+
+/* .insta{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    right: 11rem;
+    top: 31.8rem;
+    z-index: 4;
+} */
+
+#description h3 {
+    display: inline-block;    /* or “display: block;” */
+    font-size: 1.2rem;
+    margin: 8.5rem 0 0 2rem;
+    padding: 2rem 2rem 0 2rem;
+    line-height: 1.6;
+    text-align: left;
+    width: 70%;
+}
+
+
+
+#projects {
+    margin-top: 11rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+#projects h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    border: solid rgba(38, 38, 38, 0.36);
+    background-color: rgba(38, 38, 38, 0.36);
+}
+
+.allProjects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ProjectOne {
+    padding: 1rem;
+    margin: 1rem;
+    border: solid 0.2rem rgba(148, 11, 11, 0.79);
+    display: inline-block;
+}
+
+.ProjectOneList {
+    padding-left: 40px;  /* Or margin-left: 40px */
+}
+
+.ProjectTwo {
+    padding: 1rem;
+    margin: 1rem;
+    border: solid 0.2rem rgba(148, 11, 11, 0.79);
+    display: inline-block;
+}
+
+.ProjectTwoList{
+    padding-left: 40px;  /* Or margin-left: 40px */
+}
+
+.ProjectThree {
+    padding: 1rem;
+    margin: 1rem;
+    border: solid 0.2rem rgba(148, 11, 11, 0.79);
+    display: inline-block;
+}
+
+.ProjectThreeList{
+    padding-left: 40px;  /* Or margin-left: 40px */
+}
+
+.ProjectFour {
+    padding: 1rem;
+    margin: 1rem;
+    border: solid 0.2rem rgba(148, 11, 11, 0.79);
+    display: inline-block;
+}
+
+.ProjectFourList{
+    padding-left: 40px;  /* Or margin-left: 40px */
+}
+
+#Experience {
+    margin-top: 12rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+#Experience h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    border: solid rgba(38, 38, 38, 0.36);
+    background-color: rgba(38, 38, 38, 0.36);
+}
+

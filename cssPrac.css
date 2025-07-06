@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fee0e0;
+}
+
+html {
+    font-size: 16px; /* 1rem = 16px */
+  }
+
+body{
+    margin: 2rem;
+    background-color: #252323;
+
+    header{
+        margin: auto;
+        padding: 2.2rem;
+        padding-left: 0;
+        border: groove 0.5rem rgb(255, 211, 175);
+        border-left: none;
+        border-right: none;
+        background-color: rgba(184, 169, 156, 0.17);
+        width: 100%;
+    }
+
+    h1{
+        text-align: center;
+    }
+    .name{
+       color: #ffe6e6;
+       letter-spacing: 0.2rem;
+       text-align: center;
+
+    }
+    .personal{
+        color: #ffe6e6;
+        letter-spacing: .1rem;
+        text-align: center;
+
+    }
+    address{
+        color: #ffe6e6;
+        letter-spacing: .05rem;
+        text-align: center;
+    }
+    .top-row{
+        overflow: auto;
+    }
+    #Education{
+        margin-top: 0.5rem;
+        border: groove 0.5rem rgb(255, 211, 175);
+        text-align: left;
+        padding: 2rem;
+
+
+        
+    }
+
+    #Education h3{
+       text-decoration: underline 0.2rem rgb(0, 103, 154);
+        
+    }
+
+    #Experience{
+        margin-top: 0.5rem;
+        border: groove 0.5rem rgb(255, 211, 175);
+        text-align: left;
+        padding: 1rem;
+
+
+    }
+
+    #Experience h3{
+       text-decoration: underline 0.2rem rgb(0, 103, 154);
+    
+    }
+
+    #skills{
+        margin-top: 0.5rem;
+        border: groove 0.5rem rgb(255, 211, 175);
+        text-align: left;
+        padding: 1rem;
+
+    }
+    #skills h3{
+       text-decoration: underline 0.2rem rgb(0, 103, 154);
+        
+    }
+
+    #Languages{
+        margin-top: 0.5rem;
+        border: groove 0.5rem rgb(255, 211, 175);
+        text-align: left;
+        padding: 1rem;
+
+
+    }
+    #Languages h3{
+        text-decoration: underline 0.2rem rgb(0, 103, 154);
+        
+    }
+
+    #Accomplishments{
+        margin-top: 0.5rem;
+        border: groove 0.5rem rgb(255, 211, 175);
+        text-align: left;
+        padding: 1rem;
+
+
+    }
+
+    #Accomplishments h3{
+        text-decoration: underline 0.2rem rgb(0, 103, 154);
+    }
+
+    \ol{
+        list-style-type: circle;
+    }
+}
+
+  /*
+  line height: 1.6; controls the height different between sentences
+  font family: "Roboto", calbri; using which font and have a fall back if that said font doesnt work
+  font-size:2.5; basize how big is ur font
+  margin-bottom:1; adds space below the sentense
+  letter-spacing: -1px; space between letters
+  text-align: left centered, justify; u know wha ti mean
+  border radius5
+  */
