@@ -229,7 +229,6 @@
         .social-icon {
             width: 2.5rem;
             height: 2.5rem;
-            filter: brightness(0) saturate(100%) invert(93%) sepia(8%) saturate(95%) hue-rotate(314deg) brightness(106%) contrast(106%);
         }
         
         .social-icon:hover {
@@ -573,13 +572,13 @@
             margin-bottom: 0.5rem;
         }
         .footer-disclaimer{
-            font-size: 0.7rem;
+            font-size: 0.5rem;
         }
         
         .footer-note {
 
             opacity: 0.8;
-            font-size: 0.7rem;
+            font-size: 0.5rem;
         }
         
         /* ========== RESPONSIVE DESIGN ========== */
