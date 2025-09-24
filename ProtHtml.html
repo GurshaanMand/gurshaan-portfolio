@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gurshaan Mand - First year Computer Science student at University of Manitoba specializing in Java, Python, HTML, CSS, and JavaScript">
+    <meta name="author" content="Gurshaan Mand">
+    <meta name="keywords" content="Computer Science, Java, Python, JavaScript, HTML, CSS, University of Manitoba, Software Developer">
+    
+    <!-- Open Graph meta tags for social sharing -->
+    <meta property="og:title" content="Gurshaan Mand - Computer Science Student">
+    <meta property="og:description" content="First year Computer Science student passionate about solving real-world problems with technology">
+    <meta property="og:type" content="website">
+    
+    <title>Gurshaan Mand | Computer Science Student & Developer</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="ProtStyle.css">
+    
+    <!-- Favicon (add your favicon if you have one) -->
+    <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico"> -->
+</head>
+
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-to-main" aria-label="Skip to main content">Skip to main content</a>
+    
+    <!-- Header Section -->
+    <header role="banner">
+        <div class="header-container">
+            <h1 class="main-title">
+                <span class="first-name">Gurshaan</span>
+                <span class="last-name">Mand</span>
+            </h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        
+        <!-- Hero/Introduction Section -->
+        <section class="hero-section" aria-labelledby="intro-heading">
+            <div class="intro">
+                <div class="description">
+                    <h2 id="intro-heading" class="visually-hidden">Introduction</h2>
+                    <p class="intro-text">
+                        First year Computer Science student at the University of Manitoba,
+                        currently working with Java, Python, HTML, CSS, and JavaScript.
+                        I'm passionate about applying these skills to solve real-world problems.
+                    </p>
+                </div>
+
+                <aside class="profile-section" role="complementary">
+                    <!-- Social Links -->
+                    <nav class="social-nav" aria-label="Social links and resume">
+                        <ul class="social-links">
+                            <li>
+                                <a href="GurshaanResume.pdf" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="resume-link"
+                                   aria-label="Download Resume (Opens in new tab)">
+                                    <img src="resume.png" alt="" class="resume-icon" aria-hidden="true">
+                                    <span class="resume-text">Resume</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="social-link linkedin-link"
+                                   aria-label="Visit LinkedIn profile (Opens in new tab)">
+                                    <img src="linkedin.png" alt="LinkedIn" class="social-icon">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <!-- Profile Image -->
+                    <div class="profile-image-container">
+                        <img src="selfImage.png" 
+                             alt="Gurshaan Mand - Computer Science Student" 
+                             class="profile-image"
+                             loading="lazy">
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section" aria-labelledby="skills-heading">
+            <div class="section-container">
+                <h2 id="skills-heading" class="section-title">Technical Skills</h2>
+                
+                <div class="skills-columns">
+                    <div class="skill-column">
+                        <h3 class="column-title">Programming Languages</h3>
+                        <ul class="skill-list">
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-column">
+                        <h3 class="column-title">Web Technologies</h3>
+                        <ul class="skill-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-column">
+                        <h3 class="column-title">Tools & Technologies</h3>
+                        <ul class="skill-list">
+                            <li>Git & GitHub</li>
+                            <li>SQLite</li>
+                            <li>REST APIs</li>
+                            <li>Data Structures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section" aria-labelledby="projects-heading">
+            <div class="section-container">
+                <h2 id="projects-heading" class="section-title">Projects</h2>
+                
+                <div class="projects-grid">
+                    
+                    <!-- Project 1: Allergen Finder -->
+                    <article class="project-card">
+                        <h3 class="project-title">Allergen Finder</h3>
+                        <p class="project-tech">(Python)</p>
+                        <div class="project-description">
+                            <p>A comprehensive allergen detection system that uses SQLite database and API integration to identify allergens in food products and recipes.</p>
+                            <a href="https://github.com/GurshaanMand/AllergenFinder" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               class="project-link"
+                               aria-label="View Allergen Finder project on GitHub (Opens in new tab)">
+                                View on GitHub
+                                <span class="external-link-icon" aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Treasure Finding Algorithm -->
+                    <article class="project-card">
+                        <h3 class="project-title">Treasure Finding Algorithm</h3>
+                        <p class="project-tech">(Java)</p>
+                        <div class="project-description">
+                            <p>This algorithm finds a possible route from a starting point to the treasure using iterative backtracking.</p>
+                            <a href="https://github.com/GurshaanMand/Treasure-finding-algorithm" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               class="project-link"
+                               aria-label="View Treasure Finding Algorithm project on GitHub (Opens in new tab)">
+                                View on GitHub
+                                <span class="external-link-icon" aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Coffee Simulator -->
+                    <article class="project-card">
+                        <h3 class="project-title">Coffee Simulator</h3>
+                        <p class="project-tech">(Java)</p>
+                        <div class="project-description">
+                            <p>This algorithm simulates ordering coffee using stacks and queues data structures.</p>
+                            <a href="https://github.com/GurshaanMand/CoffeeSimulator" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               class="project-link"
+                               aria-label="View Coffee Simulator project on GitHub (Opens in new tab)">
+                                View on GitHub
+                                <span class="external-link-icon" aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Car Washer -->
+                    <article class="project-card">
+                        <h3 class="project-title">Car Washer Simulator</h3>
+                        <p class="project-tech">(Java)</p>
+                        <div class="project-description">
+                            <p>This algorithm simulates a car washing process using stacks and queues data structures.</p>
+                            <a href="https://github.com/GurshaanMand/CarWasher" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               class="project-link"
+                               aria-label="View Car Washer project on GitHub (Opens in new tab)">
+                                View on GitHub
+                                <span class="external-link-icon" aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 5: Lake Route Finder -->
+                    <article class="project-card">
+                        <h3 class="project-title">Lake Route Finder</h3>
+                        <p class="project-tech">(Java)</p>
+                        <div class="project-description">
+                            <p>This algorithm uses recursive backtracking and array-based storage to explore all possible lake routes from a starting point to a destination.</p>
+                            <a href="https://github.com/GurshaanMand/Portage" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               class="project-link"
+                               aria-label="View Lake Route Finder project on GitHub (Opens in new tab)">
+                                View on GitHub
+                                <span class="external-link-icon" aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+            <div class="section-container">
+                <h2 id="contact-heading" class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <p class="contact-description">
+                        Let's connect! Feel free to reach out for collaboration opportunities.
+                    </p>
+                    
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <strong>Connect:</strong>
+                            <span>Available through LinkedIn and GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo" class="site-footer">
+        <div class="footer-content">
+            <p class="footer-disclaimer">&copy; 2025 Gurshaan Mand. All rights reserved.</p>
+            <p class="footer-note">Developed through a mix of custom coding and AI-assisted workflows.</p>
+        </div>
+    </footer>
+
+    <!-- Add structured data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gurshaan Mand",
+        "jobTitle": "Computer Science Student",
+        "description": "First year Computer Science student at University of Manitoba",
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "University of Manitoba"
+        },
+        "knowsAbout": ["Java", "Python", "JavaScript", "HTML", "CSS", "Computer Science"],
+        "url": "https://github.com/GurshaanMand"
+    }
+    </script>
+
+</body>
+</html>
