@@ -6,88 +6,62 @@
     <meta name="description" content="Gurshaan Mand - Computer Science student at the University of Manitoba building backend and data software in Python">
     <meta name="author" content="Gurshaan Mand">
     <meta name="keywords" content="Computer Science, Python, FastAPI, Machine Learning, Backend, Data, University of Manitoba, Software Developer">
-    
-    <!-- Open Graph meta tags for social sharing -->
+
     <meta property="og:title" content="Gurshaan Mand - Computer Science Student">
     <meta property="og:description" content="Computer Science student at the University of Manitoba building backend and data software in Python">
     <meta property="og:type" content="website">
-    
+
     <title>Gurshaan Mand | Computer Science Student & Developer</title>
-    
-    <!-- Preload critical resources -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style">
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230C0C0C'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='28' font-weight='700' text-anchor='middle' fill='%23B85140'%3EGM%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="ProtStyle.css">
-    
-    <!-- Favicon (add your favicon if you have one) -->
-    <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico"> -->
 </head>
 
 <body>
-    <!-- Skip to main content for accessibility -->
-    <a href="#main-content" class="skip-to-main" aria-label="Skip to main content">Skip to main content</a>
-    
-    <!-- Header Section -->
-    <header role="banner">
-        <div class="header-container">
-            <h1 class="main-title">
-                <span class="first-name">Gurshaan</span>
-                <span class="last-name">Mand</span>
-            </h1>
-        </div>
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
+    <!-- Navigation -->
+    <header class="site-nav" role="banner">
+        <nav class="nav-inner" aria-label="Page sections">
+            <a href="#top" class="nav-brand" aria-label="Back to top">GM</a>
+            <ul class="nav-links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Main Content -->
+    <div class="hero-glow" aria-hidden="true"></div>
+
     <main id="main-content" role="main">
-        
-        <!-- Hero/Introduction Section -->
-        <section class="hero-section" aria-labelledby="intro-heading">
+
+        <!-- Hero Section -->
+        <section id="top" class="hero-section" aria-labelledby="intro-heading">
             <div class="intro">
                 <div class="description">
-                    <h2 id="intro-heading" class="visually-hidden">Introduction</h2>
+                    <p class="eyebrow">Computer Science @ University of Manitoba</p>
+                    <h1 id="intro-heading" class="main-title">
+                        <span class="first-name">Gurshaan</span>
+                        <span class="last-name">Mand</span>
+                    </h1>
                     <p class="intro-text">
-                        Computer Science student at the University of Manitoba.
                         Most of what I build is backend and data-heavy software in Python,
                         some of it using embedding models.
                     </p>
+                    <ul class="social-links" aria-label="Résumé and profiles">
+                        <li><a href="GurshaanMand.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8M8 9h2"/></svg><span>Résumé</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/gurshaan-mand-b9457a320/" target="_blank" rel="noopener noreferrer" class="btn"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V9h4v1.5A6 6 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg><span>LinkedIn</span></a></li>
+                        <li><a href="https://github.com/GurshaanMand" target="_blank" rel="noopener noreferrer" class="btn"><svg class="icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg><span>GitHub</span></a></li>
+                    </ul>
                 </div>
 
-                <aside class="profile-section" role="complementary">
-                    <!-- Social Links -->
-                    <nav class="social-nav" aria-label="Social links and resume">
-                        <ul class="social-links">
-                            <li>
-                                <a href="GurshaanMand.pdf" 
-                                   target="_blank" 
-                                   rel="noopener noreferrer"
-                                   class="resume-link"
-                                   aria-label="Download Resume (Opens in new tab)">
-                                    <img src="resume.png" alt="" class="resume-icon" aria-hidden="true">
-                                    <span class="resume-text">Resume</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/gurshaan-mand-b9457a320/" 
-                                   target="_blank" 
-                                   rel="noopener noreferrer"
-                                   class="social-link linkedin-link"
-                                   aria-label="Visit LinkedIn profile (Opens in new tab)">
-                                    <img src="linkedin.png" alt="LinkedIn" class="social-icon">
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    
-                    <!-- Profile Image -->
-                    <div class="profile-image-container">
-                        <img src="selfImage.png" 
-                             alt="Gurshaan Mand - Computer Science Student" 
-                             class="profile-image"
-                             loading="lazy">
-                    </div>
-                </aside>
+                <div class="profile-image-container">
+                    <img src="profile.jpg" alt="Portrait of Gurshaan Mand" class="profile-image" width="569" height="579">
+                </div>
             </div>
         </section>
 
@@ -211,37 +185,22 @@
         <section id="contact" class="contact-section" aria-labelledby="contact-heading">
             <div class="section-container">
                 <h2 id="contact-heading" class="section-title">Contact</h2>
-                <div class="contact-content">
-                    <!-- Contact Information -->
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <strong>Email:</strong>
-                            <a href="mailto:gurshaansm20@gmail.com" class="contact-link">gurshaansm20@gmail.com</a>
-                        </div>
-                        <div class="contact-item">
-                            <strong>LinkedIn:</strong>
-                            <a href="https://www.linkedin.com/in/gurshaan-mand-b9457a320/" target="_blank" rel="noopener noreferrer" class="contact-link">gurshaan-mand</a>
-                        </div>
-                        <div class="contact-item">
-                            <strong>GitHub:</strong>
-                            <a href="https://github.com/GurshaanMand" target="_blank" rel="noopener noreferrer" class="contact-link">GurshaanMand</a>
-                        </div>
-                    </div>
-                </div>
+                <ul class="contact-info">
+                    <li><a href="mailto:gurshaansm20@gmail.com" class="contact-card"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg><span class="contact-label">Email</span><span class="contact-value">gurshaansm20@gmail.com</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/gurshaan-mand-b9457a320/" target="_blank" rel="noopener noreferrer" class="contact-card"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V9h4v1.5A6 6 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg><span class="contact-label">LinkedIn</span><span class="contact-value">Gurshaan Mand</span></a></li>
+                    <li><a href="https://github.com/GurshaanMand" target="_blank" rel="noopener noreferrer" class="contact-card"><svg class="icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg><span class="contact-label">GitHub</span><span class="contact-value">GurshaanMand</span></a></li>
+                </ul>
             </div>
         </section>
 
     </main>
 
-    <!-- Footer -->
     <footer role="contentinfo" class="site-footer">
         <div class="footer-content">
-            <p class="footer-disclaimer">&copy; 2026 Gurshaan Mand. All rights reserved.</p>
-            <p class="footer-note">Developed through a mix of custom coding and AI-assisted workflows.</p>
+            <p class="footer-disclaimer">&copy; 2026 Gurshaan Mand</p>
         </div>
     </footer>
 
-    <!-- Add structured data for SEO -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -249,13 +208,34 @@
         "name": "Gurshaan Mand",
         "jobTitle": "Computer Science Student",
         "description": "Computer Science student at the University of Manitoba",
-        "alumniOf": {
-            "@type": "EducationalOrganization",
-            "name": "University of Manitoba"
-        },
+        "alumniOf": { "@type": "EducationalOrganization", "name": "University of Manitoba" },
         "knowsAbout": ["Python", "Java", "SQL", "JavaScript", "FastAPI", "Machine Learning", "Computer Science"],
         "url": "https://github.com/GurshaanMand"
     }
+    </script>
+
+    <script>
+        // Fade sections and cards in as they scroll into view.
+        (function () {
+            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+            var pending = Array.prototype.slice.call(
+                document.querySelectorAll('.section-title, .skill-column, .project-card, .contact-card'));
+            pending.forEach(function (el) { el.classList.add('reveal'); });
+            function check() {
+                var limit = window.innerHeight * 0.92;
+                pending = pending.filter(function (el) {
+                    if (el.getBoundingClientRect().top < limit) { el.classList.add('is-visible'); return false; }
+                    return true;
+                });
+                if (!pending.length) {
+                    window.removeEventListener('scroll', check);
+                    window.removeEventListener('resize', check);
+                }
+            }
+            window.addEventListener('scroll', check, { passive: true });
+            window.addEventListener('resize', check);
+            check();
+        })();
     </script>
 
 </body>
