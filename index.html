@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Gurshaan Mand - First year Computer Science student at University of Manitoba specializing in Java, Python, HTML, CSS, and JavaScript">
+    <meta name="description" content="Gurshaan Mand - Computer Science student at the University of Manitoba building backend and data software in Python">
     <meta name="author" content="Gurshaan Mand">
-    <meta name="keywords" content="Computer Science, Java, Python, JavaScript, HTML, CSS, University of Manitoba, Software Developer">
+    <meta name="keywords" content="Computer Science, Python, FastAPI, Machine Learning, Backend, Data, University of Manitoba, Software Developer">
     
     <!-- Open Graph meta tags for social sharing -->
     <meta property="og:title" content="Gurshaan Mand - Computer Science Student">
-    <meta property="og:description" content="First year Computer Science student passionate about solving real-world problems with technology">
+    <meta property="og:description" content="Computer Science student at the University of Manitoba building backend and data software in Python">
     <meta property="og:type" content="website">
     
     <title>Gurshaan Mand | Computer Science Student & Developer</title>
@@ -48,9 +48,9 @@
                 <div class="description">
                     <h2 id="intro-heading" class="visually-hidden">Introduction</h2>
                     <p class="intro-text">
-                        First year Computer Science student at the University of Manitoba,
-                        currently working with Java, Python, HTML, CSS, and JavaScript.
-                        I'm passionate about applying these skills to solve real-world problems.
+                        Computer Science student at the University of Manitoba.
+                        Most of what I build is backend and data-heavy software in Python,
+                        some of it using embedding models.
                     </p>
                 </div>
 
@@ -98,30 +98,50 @@
                 
                 <div class="skills-columns">
                     <div class="skill-column">
-                        <h3 class="column-title">Programming Languages</h3>
+                        <h3 class="column-title">Languages</h3>
                         <ul class="skill-list">
                             <li>Python</li>
                             <li>Java</li>
-                            <li>C (foundational)</li>
-                            <li>JavaScript (Beginner)</li>
+                            <li>C++</li>
+                            <li>SQL</li>
+                            <li>JavaScript</li>
+                            <li>HTML / CSS</li>
                         </ul>
                     </div>
                     
                     <div class="skill-column">
-                        <h3 class="column-title">Web Technologies</h3>
+                        <h3 class="column-title">AI / Data</h3>
                         <ul class="skill-list">
-                            <li>HTML</li>
-                            <li>CSS</li>
+                            <li>Sentence Transformers</li>
+                            <li>Hugging Face</li>
+                            <li>PyTorch</li>
+                            <li>scikit-learn</li>
+                            <li>NumPy</li>
+                            <li>Pandas</li>
+                            <li>Matplotlib</li>
+                            <li>OpenAI API</li>
                         </ul>
                     </div>
                     
                     <div class="skill-column">
-                        <h3 class="column-title">Tools & Technologies</h3>
+                        <h3 class="column-title">Backend / Databases</h3>
                         <ul class="skill-list">
-                            <li>Git & GitHub</li>
-                            <li>SQLite</li>
+                            <li>FastAPI</li>
                             <li>REST APIs</li>
-                            <li>JSON</li>
+                            <li>PostgreSQL</li>
+                            <li>SQLite</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-column">
+                        <h3 class="column-title">Tools / Infrastructure</h3>
+                        <ul class="skill-list">
+                            <li>Docker</li>
+                            <li>AWS (ECS, ECR)</li>
+                            <li>GitHub Actions</li>
+                            <li>Git</li>
+                            <li>Linux</li>
+                            <li>FFmpeg</li>
                         </ul>
                     </div>
                 </div>
@@ -134,86 +154,49 @@
                 <h2 id="projects-heading" class="section-title">Projects</h2>
                 
                 <div class="projects-grid">
-                    
-                    <!-- Project 1: Allergen Finder -->
+
+                    <article class="project-card">
+                        <h3 class="project-title">Video Condenser</h3>
+                        <p class="project-tech">(Python, FastAPI, Sentence Transformers, FFmpeg, Docker, AWS)</p>
+                        <div class="project-description">
+                            <p>A web app that cuts a long YouTube video down to the parts that match an objective you describe. It scores every transcript segment for relevance, redundancy and information content, then renders the kept ranges into one MP4.</p>
+                            <a href="https://github.com/GurshaanMand/VideoCondensor" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               class="project-link"
+                               aria-label="View Video Condenser project on GitHub (Opens in new tab)">
+                                View on GitHub
+                                <span class="external-link-icon" aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <h3 class="project-title">CareConnect</h3>
+                        <p class="project-tech">(Python, FastAPI, Jinja2, Pandas)</p>
+                        <div class="project-description">
+                            <p>A hackathon project that ranks clinic patients for vaccination outreach by age, risk factors and gaps in their vaccination history, with a staff dashboard and a patient lookup page. It runs on generated demo data.</p>
+                            <a href="https://github.com/GurshaanMand/CareConnect" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               class="project-link"
+                               aria-label="View CareConnect project on GitHub (Opens in new tab)">
+                                View on GitHub
+                                <span class="external-link-icon" aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </article>
+
                     <article class="project-card">
                         <h3 class="project-title">Allergen Finder</h3>
-                        <p class="project-tech">(Python)</p>
+                        <p class="project-tech">(Python, SQLite, REST API, RapidFuzz)</p>
                         <div class="project-description">
-                            <p>A comprehensive allergen detection system that uses SQLite database and API integration to identify allergens in food products and recipes.</p>
+                            <p>A command-line tool that looks up the likely allergens in a dish. It pulls a recipe's ingredients from the Spoonacular API, matches them against common allergens, and stores the result in SQLite.</p>
                             <a href="https://github.com/GurshaanMand/AllergenFinder" 
                                target="_blank" 
                                rel="noopener noreferrer"
                                class="project-link"
                                aria-label="View Allergen Finder project on GitHub (Opens in new tab)">
-                                View on GitHub
-                                <span class="external-link-icon" aria-hidden="true">↗</span>
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Project 2: Treasure Finding Algorithm -->
-                    <article class="project-card">
-                        <h3 class="project-title">Treasure Finding Algorithm</h3>
-                        <p class="project-tech">(Java)</p>
-                        <div class="project-description">
-                            <p>This algorithm finds a possible route from a starting point to the treasure using iterative backtracking.</p>
-                            <a href="https://github.com/GurshaanMand/Treasure-finding-algorithm" 
-                               target="_blank" 
-                               rel="noopener noreferrer"
-                               class="project-link"
-                               aria-label="View Treasure Finding Algorithm project on GitHub (Opens in new tab)">
-                                View on GitHub
-                                <span class="external-link-icon" aria-hidden="true">↗</span>
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Project 3: Coffee Simulator -->
-                    <article class="project-card">
-                        <h3 class="project-title">Coffee Simulator</h3>
-                        <p class="project-tech">(Java)</p>
-                        <div class="project-description">
-                            <p>This algorithm simulates ordering coffee using stacks and queues data structures.</p>
-                            <a href="https://github.com/GurshaanMand/CoffeeSimulator" 
-                               target="_blank" 
-                               rel="noopener noreferrer"
-                               class="project-link"
-                               aria-label="View Coffee Simulator project on GitHub (Opens in new tab)">
-                                View on GitHub
-                                <span class="external-link-icon" aria-hidden="true">↗</span>
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Project 4: Car Washer -->
-                    <article class="project-card">
-                        <h3 class="project-title">Car Washer Simulator</h3>
-                        <p class="project-tech">(Java)</p>
-                        <div class="project-description">
-                            <p>This algorithm simulates a car washing process using stacks and queues data structures.</p>
-                            <a href="https://github.com/GurshaanMand/CarWasher" 
-                               target="_blank" 
-                               rel="noopener noreferrer"
-                               class="project-link"
-                               aria-label="View Car Washer project on GitHub (Opens in new tab)">
-                                View on GitHub
-                                <span class="external-link-icon" aria-hidden="true">↗</span>
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Project 5: Lake Route Finder -->
-                    <article class="project-card">
-                        <h3 class="project-title">Lake Route Finder</h3>
-                        <p class="project-tech">(Java)</p>
-                        <div class="project-description">
-                            <p>This algorithm uses recursive backtracking and array-based storage to explore all possible lake routes from a starting point to a destination.</p>
-                            <a href="https://github.com/GurshaanMand/Portage" 
-                               target="_blank" 
-                               rel="noopener noreferrer"
-                               class="project-link"
-                               aria-label="View Lake Route Finder project on GitHub (Opens in new tab)">
                                 View on GitHub
                                 <span class="external-link-icon" aria-hidden="true">↗</span>
                             </a>
@@ -229,15 +212,19 @@
             <div class="section-container">
                 <h2 id="contact-heading" class="section-title">Contact</h2>
                 <div class="contact-content">
-                    <p class="contact-description">
-                        Let's connect! Feel free to reach out for collaboration opportunities.
-                    </p>
-                    
                     <!-- Contact Information -->
                     <div class="contact-info">
                         <div class="contact-item">
-                            <strong>Connect:</strong>
-                            <span>Available through LinkedIn and GitHub</span>
+                            <strong>Email:</strong>
+                            <a href="mailto:gurshaansm20@gmail.com" class="contact-link">gurshaansm20@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>LinkedIn:</strong>
+                            <a href="https://www.linkedin.com/in/gurshaan-mand-b9457a320/" target="_blank" rel="noopener noreferrer" class="contact-link">gurshaan-mand</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>GitHub:</strong>
+                            <a href="https://github.com/GurshaanMand" target="_blank" rel="noopener noreferrer" class="contact-link">GurshaanMand</a>
                         </div>
                     </div>
                 </div>
@@ -249,7 +236,7 @@
     <!-- Footer -->
     <footer role="contentinfo" class="site-footer">
         <div class="footer-content">
-            <p class="footer-disclaimer">&copy; 2025 Gurshaan Mand. All rights reserved.</p>
+            <p class="footer-disclaimer">&copy; 2026 Gurshaan Mand. All rights reserved.</p>
             <p class="footer-note">Developed through a mix of custom coding and AI-assisted workflows.</p>
         </div>
     </footer>
@@ -261,12 +248,12 @@
         "@type": "Person",
         "name": "Gurshaan Mand",
         "jobTitle": "Computer Science Student",
-        "description": "First year Computer Science student at University of Manitoba",
+        "description": "Computer Science student at the University of Manitoba",
         "alumniOf": {
             "@type": "EducationalOrganization",
             "name": "University of Manitoba"
         },
-        "knowsAbout": ["Java", "Python", "JavaScript", "HTML", "CSS", "Computer Science"],
+        "knowsAbout": ["Python", "Java", "SQL", "JavaScript", "FastAPI", "Machine Learning", "Computer Science"],
         "url": "https://github.com/GurshaanMand"
     }
     </script>
